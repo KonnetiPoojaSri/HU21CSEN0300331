@@ -73,4 +73,3 @@ app.post('/numbers/:numberid', async (req, res) => {
 app.listen(port, () => {
   console.log(`Average Calculator service running at http://localhost:${port}`);
 });
-
